@@ -2,7 +2,6 @@ const form = document.querySelector(".js-form"),
     input = form.querySelector("input"),
     greeting = document.querySelector(".js-greetings"),
     button = document.querySelector(".js-logout");
-
 const USER_LS = "currentUser",
     SHOWING_CN = "showing";
 
