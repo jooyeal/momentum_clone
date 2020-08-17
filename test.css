@@ -1,0 +1,9 @@
+.form,
+.greetings,
+.logout {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
