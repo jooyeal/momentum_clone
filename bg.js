@@ -1,17 +1,10 @@
 const body = document.querySelector("body");
 
-const IMG_NUMBER = 3;
-
-
-function handleImgLoad() {
-
-}
+const IMG_NUMBER = 7;
+const color = ["#ddf863", "#6563f8", "#fca139", "#4df878", "#fd5335", "#fc50f3"];
 
 function paintImage(imgNumber) {
-    const image = new Image();
-    image.src = `images/${imgNumber+1}.jpg`;
-    image.classList.add("bgImage");
-    body.appendChild(image);
+    body.style.backgroundColor = color[imgNumber];
 }
 
 function genRandom() {
